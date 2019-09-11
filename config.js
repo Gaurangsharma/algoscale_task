@@ -2,7 +2,7 @@ module.exports = {
     env: 'dev',
     applicationUrl: 'http://localhost',
     port: {
-        http: 80,
+        http: 3000,
         https: 443
     },
     loggingMode: 'error',
@@ -15,6 +15,6 @@ module.exports = {
         host     : '127.0.0.1',
         user     : 'root',
         password : 'root',
-        database : 'rt'
+        database : 'algo_task'
     }
 };

@@ -1,0 +1,1 @@
+create table user(id int(11) unsigned primary key not null auto_increment,creation_timestamp timestamp not null default CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,username varchar(31) not null,password varchar(127) not null);
